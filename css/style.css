@@ -1,0 +1,56 @@
+#container{
+	position: relative;
+	height: 700px;
+	width: 1000px;
+	background: blue;
+	margin: 0 auto;
+}
+#container>button{
+	position: relative;
+	left: 45%;
+}
+.com{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	border-radius: 25%;
+}
+h1{
+	 text-align: center;
+}
+#covers, #coversb, #buffer{
+	 height: 400px;
+	 width: 400px;
+	 float: right;
+}
+#boards{
+	height: 400px;
+	width: 900px;
+	margin:0 auto;
+}
+#buffer{
+	height: 400px;
+	width: 100px;
+}
+#ones, #twos, #threes, #fours, #fives, #sixs, #sevens, #eights, #nines, #tens, #elevens, #twelves, #thirteens, #fourteens, #fifteens, #sixteens, #seventeens, #eighteens, #nineteens, #twenties, #twentyones, #twentytwos, #twentythrees, #twentyfours, #twentyfives, #twentysixs, #twentysevens, #twentyeights, #twentynines, #thirties, #thirtyones, #thirtytwos, #thirtythrees, #thirtyfours, #thirtyfives, #thirtysixs, #thirtysevens, #thirtyeights, #thirtynines, #fourties, #fourtyones, #fourtytwos, #fourtythrees, #fourtyfours, #fourtyfives, #fourtysixs, #fourtysevens, #fourtyeights, #fourtynines, #fifties, #fiftyones, #fiftytwos, #fiftythrees, #fiftyfours, #fiftyfives, #fiftysixs, #fiftysevens, #fiftyeights, #fiftynines, #sixties, #sixtyones, #sixtytwos, #sixtythrees, #sixtyfours{
+	 height: 12.5%;
+	 width: 12.5%;
+	 border-radius: 25%;
+	 float: left;
+	 background-color: #ebeeeb;
+}
+#onesb, #twosb, #threesb, #foursb, #fivesb, #sixsb, #sevensb, #eightsb, #ninesb, #tensb, #elevensb, #twelvesb, #thirteensb, #fourteensb, #fifteensb, #sixteensb, #seventeensb, #eighteensb, #nineteensb, #twentiesb, #twentyonesb, #twentytwosb, #twentythreesb, #twentyfoursb, #twentyfivesb, #twentysixsb, #twentysevensb, #twentyeightsb, #twentyninesb, #thirtiesb, #thirtyonesb, #thirtytwosb, #thirtythreesb, #thirtyfoursb, #thirtyfivesb, #thirtysixsb, #thirtysevensb, #thirtyeightsb, #thirtyninesb, #fourtiesb, #fourtyonesb, #fourtytwosb, #fourtythreesb, #fourtyfoursb, #fourtyfivesb, #fourtysixsb, #fourtysevensb, #fourtyeightsb, #fourtyninesb, #fiftiesb, #fiftyonesb, #fiftytwosb, #fiftythreesb, #fiftyfoursb, #fiftyfivesb, #fiftysixsb, #fiftysevensb, #fiftyeightsb, #fiftyninesb, #sixtiesb, #sixtyonesb, #sixtytwosb, #sixtythreesb, #sixtyfoursb{
+	 height: 12.5%;
+	 width: 12.5%;
+	 border-radius: 25%;
+	 float: left;
+	 background-color: #ebeeeb;
+}
+#blacks{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+#play{
+	border-radius: 25%;
+}

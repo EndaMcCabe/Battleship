@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+ <html>
+	<head>
+		<title>Battleship</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1>Battleship</h1>
+		<div id="container">
+			<div id="boards">
+				<div id="covers">
+					<div id="ones"><button class="com">1</button></div>
+					<div id="twos"><button class="com">2</button></div>
+					<div id="threes"><button class="com">3</button></div>
+					<div id="fours"><button class="com">4</button></div>
+					<div id="fives"><button class="com">5</button></div>
+					<div id="sixs"><button class="com">6</button></div>
+					<div id="sevens"><button class="com">7</button></div>
+					<div id="eights"><button class="com">8</button></div>
+					<div id="nines"><button class="com">9</button></div>
+					<div id="tens"><button class="com">10</button></div>
+					<div id="elevens"><button class="com">11</button></div>
+					<div id="twelves"><button class="com">12</button></div>
+					<div id="thirteens"><button class="com">13</button></div>
+					<div id="fourteens"><button class="com">14</button></div>
+					<div id="fifteens"><button class="com">15</button></div>
+					<div id="sixteens"><button class="com">16</button></div>
+					<div id="seventeens"><button class="com">17</button></div>
+					<div id="eighteens"><button class="com">18</button></div>
+					<div id="nineteens"><button class="com">19</button></div>
+					<div id="twenties"><button class="com">20</button></div>
+					<div id="twentyones"><button class="com">21</button></div>
+					<div id="twentytwos"><button class="com">22</button></div>
+					<div id="twentythrees"><button class="com">23</button></div>
+					<div id="twentyfours"><button class="com">24</button></div>
+					<div id="twentyfives"><button class="com">25</button></div>
+					<div id="twentysixs"><button class="com">26</button></div>
+					<div id="twentysevens"><button class="com">27</button></div>
+					<div id="twentyeights"><button class="com">28</button></div>
+					<div id="twentynines"><button class="com">29</button></div>
+					<div id="thirties"><button class="com">30</button></div>
+					<div id="thirtyones"><button class="com">31</button></div>
+					<div id="thirtytwos"><button class="com">32</button></div>
+					<div id="thirtythrees"><button class="com">33</button></div>
+					<div id="thirtyfours"><button class="com">34</button></div>
+					<div id="thirtyfives"><button class="com">35</button></div>
+					<div id="thirtysixs"><button class="com">36</button></div>
+					<div id="thirtysevens"><button class="com">37</button></div>
+					<div id="thirtyeights"><button class="com">38</button></div>
+					<div id="thirtynines"><button class="com">39</button></div>
+					<div id="fourties"><button class="com">40</button></div>
+					<div id="fourtyones"><button class="com">41</button></div>
+					<div id="fourtytwos"><button class="com">42</button></div>
+					<div id="fourtythrees"><button class="com">43</button></div>
+					<div id="fourtyfours"><button class="com">44</button></div>
+					<div id="fourtyfives"><button class="com">45</button></div>
+					<div id="fourtysixs"><button class="com">46</button></div>
+					<div id="fourtysevens"><button class="com">47</button></div>
+					<div id="fourtyeights"><button class="com">48</button></div>
+					<div id="fourtynines"><button class="com">49</button></div>
+					<div id="fifties"><button class="com">50</button></div>
+					<div id="fiftyones"><button class="com">51</button></div>
+					<div id="fiftytwos"><button class="com">52</button></div>
+					<div id="fiftythrees"><button class="com">53</button></div>
+					<div id="fiftyfours"><button class="com">54</button></div>
+					<div id="fiftyfives"><button class="com">55</button></div>
+					<div id="fiftysixs"><button class="com">56</button></div>
+					<div id="fiftysevens"><button class="com">57</button></div>
+					<div id="fiftyeights"><button class="com">58</button></div>
+					<div id="fiftynines"><button class="com">59</button></div>
+					<div id="sixties"><button class="com">60</button></div>
+					<div id="sixtyones"><button class="com">61</button></div>
+					<div id="sixtytwos"><button class="com">62</button></div>
+					<div id="sixtythrees"><button class="com">63</button></div>
+					<div id="sixtyfours"><button class="com">64</button></div>
+				</div>
+				<div id="buffer"></div>
+				<div id="coversb">
+					<div id="onesb"><button class="com">1</button></div>
+					<div id="twosb"><button class="com">2</button></div>
+					<div id="threesb"><button class="com">3</button></div>
+					<div id="foursb"><button class="com">4</button></div>
+					<div id="fivesb"><button class="com">5</button></div>
+					<div id="sixsb"><button class="com">6</button></div>
+					<div id="sevensb"><button class="com">7</button></div>
+					<div id="eightsb"><button class="com">8</button></div>
+					<div id="ninesb"><button class="com">9</button></div>
+					<div id="tensb"><button class="com">10</button></div>
+					<div id="elevensb"><button class="com">11</button></div>
+					<div id="twelvesb"><button class="com">12</button></div>
+					<div id="thirteensb"><button class="com">13</button></div>
+					<div id="fourteensb"><button class="com">14</button></div>
+					<div id="fifteensb"><button class="com">15</button></div>
+					<div id="sixteensb"><button class="com">16</button></div>
+					<div id="seventeensb"><button class="com">17</button></div>
+					<div id="eighteensb"><button class="com">18</button></div>
+					<div id="nineteensb"><button class="com">19</button></div>
+					<div id="twentiesb"><button class="com">20</button></div>
+					<div id="twentyonesb"><button class="com">21</button></div>
+					<div id="twentytwosb"><button class="com">22</button></div>
+					<div id="twentythreesb"><button class="com">23</button></div>
+					<div id="twentyfoursb"><button class="com">24</button></div>
+					<div id="twentyfivesb"><button class="com">25</button></div>
+					<div id="twentysixsb"><button class="com">26</button></div>
+					<div id="twentysevensb"><button class="com">27</button></div>
+					<div id="twentyeightsb"><button class="com">28</button></div>
+					<div id="twentyninesb"><button class="com">29</button></div>
+					<div id="thirtiesb"><button class="com">30</button></div>
+					<div id="thirtyonesb"><button class="com">31</button></div>
+					<div id="thirtytwosb"><button class="com">32</button></div>
+					<div id="thirtythreesb"><button class="com">33</button></div>
+					<div id="thirtyfoursb"><button class="com">34</button></div>
+					<div id="thirtyfivesb"><button class="com">35</button></div>
+					<div id="thirtysixsb"><button class="com">36</button></div>
+					<div id="thirtysevensb"><button class="com">37</button></div>
+					<div id="thirtyeightsb"><button class="com">38</button></div>
+					<div id="thirtyninesb"><button class="com">39</button></div>
+					<div id="fourtiesb"><button class="com">40</button></div>
+					<div id="fourtyonesb"><button class="com">41</button></div>
+					<div id="fourtytwosb"><button class="com">42</button></div>
+					<div id="fourtythreesb"><button class="com">43</button></div>
+					<div id="fourtyfoursb"><button class="com">44</button></div>
+					<div id="fourtyfivesb"><button class="com">45</button></div>
+					<div id="fourtysixsb"><button class="com">46</button></div>
+					<div id="fourtysevensb"><button class="com">47</button></div>
+					<div id="fourtyeightsb"><button class="com">48</button></div>
+					<div id="fourtyninesb"><button class="com">49</button></div>
+					<div id="fiftiesb"><button class="com">50</button></div>
+					<div id="fiftyonesb"><button class="com">51</button></div>
+					<div id="fiftytwosb"><button class="com">52</button></div>
+					<div id="fiftythreesb"><button class="com">53</button></div>
+					<div id="fiftyfoursb"><button class="com">54</button></div>
+					<div id="fiftyfivesb"><button class="com">55</button></div>
+					<div id="fiftysixsb"><button class="com">56</button></div>
+					<div id="fiftysevensb"><button class="com">57</button></div>
+					<div id="fiftyeightsb"><button class="com">58</button></div>
+					<div id="fiftyninesb"><button class="com">59</button></div>
+					<div id="sixtiesb"><button class="com">60</button></div>
+					<div id="sixtyonesb"><button class="com">61</button></div>
+					<div id="sixtytwosb"><button class="com">62</button></div>
+					<div id="sixtythreesb"><button class="com">63</button></div>
+					<div id="sixtyfoursb"><button class="com">64</button></div>
+				</div>
+			</div>
+			<button id="play" onclick="game()">Play Me</button>
+		</div>
+	</body>
+		<script src="js/main.js"></script>
+ </html>
